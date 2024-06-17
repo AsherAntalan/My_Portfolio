@@ -1,0 +1,112 @@
+
+.jumbotron-heading{
+    color: #fff;
+    font-size: 3em;
+  }
+  
+  .jumbotron-heading:nth-child(1) {
+    color: transparent;
+    -webkit-text-stroke: 2px #03a9f4;
+  }
+  
+  .jumbotron-heading:nth-child(2) {
+    color: #03a9f4;
+    animation: animate 4s ease-in-out infinite;
+  }
+
+.bg{
+    height: 100%;
+    background-image: url('/pics/clouds.gif');
+    background-color: #fff6f625;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+
+.container{
+    margin-top: 0.9rem;
+}
+
+/* BUTTON */
+.but {
+  background-color: #000;
+  background-image: none;
+  border: 1px solid #000;
+  border-radius: 4px;
+  box-shadow: #fff 4px 4px 0 0,#000 4px 4px 0 1px;
+  box-sizing: border-box;
+  color: #fff;
+  display: inline-block;
+  font-family: Arial,sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 20px 5px 10px 0;
+  overflow: visible;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: none;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: middle;
+  white-space: nowrap;
+}
+
+.but:focus {
+  text-decoration: none;
+}
+
+.but:hover {
+  text-decoration: none;
+}
+
+.but:active {
+  box-shadow: rgba(0, 0, 0, .125) 0 3px 5px inset;
+  outline: 0;
+}
+
+
+/*=======================================START FOR MEDIA QUERY===================================*/
+@media (min-width: 768px) {
+  .button-50 {
+    padding: 12px 50px;
+  }
+}
+
+
+
+@media (max-width:1000px){
+    .jumbotron-heading{
+        color: #fff;
+        font-size: 2em;
+      }
+      .jumbotron-heading:nth-child(1) {
+        color: transparent;
+        -webkit-text-stroke: 2px #006696;
+      }
+  
+    .container{
+        margin-top: 12.5rem;
+}
+    .col .card{
+        margin-top: -20rem;
+
+        }
+    .col .breadcrumb{
+        margin-top: -10rem;
+    }
+
+    .col-12 .card{
+        margin-top: 20px;
+    }
+    .bg{
+        height: 100%;
+        background-image: url('/pics/clouds_phone.gif');
+        background-color: #fff6f625;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+    }
+}
